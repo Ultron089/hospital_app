@@ -1,0 +1,15 @@
+# Maven build artifacts
+target/
+*.class
+
+# Configuration and secrets
+db.properties
+.env
+records/
+
+# IDE and OS
+.vscode/
+.idea/
+*.iml
+.DS_Store
+*.log

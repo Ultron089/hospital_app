@@ -1,0 +1,346 @@
+/* ==========================================================================
+   Hospital Appointment System - Phase 1 Theme
+   Clean, modern healthcare dashboard stylesheet
+   ========================================================================== */
+
+.root {
+    -fx-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -fx-base: #f8fafc;
+    -fx-background-color: #f1f5f9;
+    background-color: #f1f5f9;
+}
+
+/* ---------------- Top Header Bar ---------------- */
+.header-bar {
+    -fx-background-color: #0f172a;
+    -fx-padding: 14px 24px;
+    -fx-alignment: CENTER_LEFT;
+    -fx-border-color: #1e293b;
+    -fx-border-width: 0 0 1px 0;
+}
+
+.header-title {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    font-weight: bold;
+}
+
+.header-subtitle {
+    -fx-text-fill: #94a3b8;
+    -fx-font-size: 12px;
+}
+
+.status-badge-online {
+    -fx-background-color: #064e3b;
+    -fx-text-fill: #34d399;
+    -fx-padding: 4px 10px;
+    -fx-background-radius: 9999px;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    font-weight: bold;
+}
+
+.status-badge-offline {
+    -fx-background-color: #7f1d1d;
+    -fx-text-fill: #fca5a5;
+    -fx-padding: 4px 10px;
+    -fx-background-radius: 9999px;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    font-weight: bold;
+}
+
+/* ---------------- Left Sidebar ---------------- */
+.sidebar {
+    -fx-background-color: #1e293b;
+    -fx-pref-width: 240px;
+    -fx-padding: 20px 12px;
+    -fx-spacing: 8px;
+}
+
+.sidebar-heading {
+    -fx-text-fill: #64748b;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 12px 4px 12px;
+}
+
+.nav-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #cbd5e1;
+    -fx-font-size: 14px;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 10px 16px;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-pref-width: 216px;
+}
+
+.nav-button:hover {
+    -fx-background-color: #334155;
+    -fx-text-fill: #ffffff;
+}
+
+.nav-button-active {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.nav-button-active:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+/* ---------------- Content Area ---------------- */
+.content-area {
+    -fx-background-color: #f8fafc;
+    -fx-padding: 24px;
+}
+
+.page-title {
+    -fx-text-fill: #0f172a;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+.page-description {
+    -fx-text-fill: #64748b;
+    -fx-font-size: 13px;
+}
+
+/* ---------------- Info & Notice Cards ---------------- */
+.notice-box {
+    -fx-background-color: #eff6ff;
+    -fx-border-color: #bfdbfe;
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 14px 18px;
+}
+
+.notice-box-title {
+    -fx-text-fill: #1e40af;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+.notice-box-text {
+    -fx-text-fill: #3b82f6;
+    -fx-font-size: 12px;
+}
+
+/* ---------------- Stat Cards ---------------- */
+.stat-card {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10px;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 10px;
+    -fx-border-width: 1px;
+    -fx-padding: 18px;
+    -fx-pref-width: 200px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.03), 8, 0, 0, 2);
+}
+
+.stat-title {
+    -fx-text-fill: #64748b;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.stat-value {
+    -fx-text-fill: #0f172a;
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+}
+
+.stat-subtitle {
+    -fx-text-fill: #10b981;
+    -fx-font-size: 11px;
+}
+
+/* ---------------- Action Button ---------------- */
+.action-button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 16px;
+    -fx-background-radius: 6px;
+    -fx-cursor: hand;
+}
+
+.action-button:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+.secondary-button {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #334155;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 8px 16px;
+    -fx-cursor: hand;
+}
+
+.secondary-button:hover {
+    -fx-background-color: #f1f5f9;
+}
+
+/* ---------------- Item Cards (List View) ---------------- */
+.item-card {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 8px;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 8px;
+    -fx-border-width: 1px;
+    -fx-padding: 14px 18px;
+}
+
+.item-card-title {
+    -fx-text-fill: #0f172a;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+.item-card-detail {
+    -fx-text-fill: #475569;
+    -fx-font-size: 13px;
+}
+
+.item-card-meta {
+    -fx-text-fill: #64748b;
+    -fx-font-size: 12px;
+}
+
+/* ---------------- Status Badges ---------------- */
+.badge-confirmed {
+    -fx-background-color: #dcfce7;
+    -fx-text-fill: #166534;
+    -fx-padding: 3px 8px;
+    -fx-background-radius: 4px;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+.badge-scheduled {
+    -fx-background-color: #dbeafe;
+    -fx-text-fill: #1e40af;
+    -fx-padding: 3px 8px;
+    -fx-background-radius: 4px;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    font-weight: bold;
+}
+
+.badge-completed {
+    -fx-background-color: #f1f5f9;
+    -fx-text-fill: #475569;
+    -fx-padding: 3px 8px;
+    -fx-background-radius: 4px;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    font-weight: bold;
+}
+
+.badge-cancelled {
+    -fx-background-color: #fee2e2;
+    -fx-text-fill: #991b1b;
+    -fx-padding: 3px 8px;
+    -fx-background-radius: 4px;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    font-weight: bold;
+}
+
+/* ---------------- TableView Modern Styling ---------------- */
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 0;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #f8fafc;
+    -fx-border-color: #e2e8f0;
+    -fx-border-width: 0 0 1px 0;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-padding: 10px 12px;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #475569;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    font-weight: bold;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #f1f5f9;
+    -fx-border-width: 0 0 1px 0;
+    -fx-cell-size: 42px;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #fafbfd;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #eff6ff;
+}
+
+.table-view .table-row-cell:selected .text {
+    -fx-fill: #1e3a8a;
+}
+
+/* ---------------- Search & Filter Bar ---------------- */
+.search-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 13px;
+    -fx-prompt-text-fill: #94a3b8;
+}
+
+.search-field:focused {
+    -fx-border-color: #2563eb;
+}
+
+.danger-button {
+    -fx-background-color: #fee2e2;
+    -fx-text-fill: #dc2626;
+    -fx-border-color: #fca5a5;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-padding: 4px 10px;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.danger-button:hover {
+    -fx-background-color: #fecaca;
+    -fx-border-color: #f87171;
+}
+
+/* ---------------- Footer Status Bar ---------------- */
+.footer-bar {
+    -fx-background-color: #ffffff;
+    -fx-padding: 8px 24px;
+    -fx-border-color: #e2e8f0;
+    -fx-border-width: 1px 0 0 0;
+}
+
+.footer-text {
+    -fx-text-fill: #64748b;
+    -fx-font-size: 12px;
+}

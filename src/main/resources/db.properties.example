@@ -1,0 +1,17 @@
+# ============================================================================
+# Hospital Appointment Management System - Database Configuration Template
+# ============================================================================
+# Copy this file to 'db.properties' (in root or classpath) and configure
+# with your local MySQL credentials.
+#
+# SECURITY: Never commit 'db.properties' containing real passwords to Git!
+# ============================================================================
+
+db.url=jdbc:mysql://localhost:3306/hospital_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+db.user=hospital_app_user
+db.password=ReplaceWithYourSecurePassword123!
+db.driver=com.mysql.cj.jdbc.Driver
+
+# Connection pooling settings
+db.pool.maxConnections=10
+db.pool.timeoutSeconds=30
